@@ -62,6 +62,7 @@ REPLACE INTO `troop` (`id`, `fighter`, `name`, `user_id`) VALUES
 	(1, '{"boost":{"300002":0.3,"300004":0.195,"300006":0.22,"300008":0.19,"300014":1.2336,"300016":0.9961,"300018":1.3531,"300020":1.4181,"300026":1.0911,"300028":1.1386,"300030":1.4181,"300032":1.3531,"300038":1.0436,"300040":1.0911,"300042":1.2234,"300044":1.1584},"troops":[{"id":1300010,"number":36333},{"id":1300022,"number":36333},{"id":1300034,"number":36333}],"heroes":[{"id":26400086,"skills":[25500170,25500180,25500190],"equipment":[27300043,27300044,27300045],"selected":true},{"id":26400140,"skills":[25500382,25500392,25500402],"equipment":[27300034,27300035,27300036],"selected":true},{"id":26400046,"skills":[25500080,25500089,25500098],"equipment":[27300052,27300053,27300054],"selected":false},{"id":26400149,"skills":[25500413,25500418,25500423],"equipment":[27300052,27300053,27300054],"selected":true}],"monster":false}', 'Player HQ30', NULL);
 /*!40000 ALTER TABLE `troop` ENABLE KEYS */;
 
+
 -- Export de la structure de la table battle. user
 CREATE TABLE IF NOT EXISTS `user` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
